@@ -14,7 +14,7 @@ p {
    display: flex;
    justify-content: flex-end;
    position: fixed;
-   background-color: blue;
+   background-color: black;
    height: 124px;
 }
 
@@ -28,20 +28,51 @@ a {
    font-family: Oswald, sans-serif;
    font-size: 20px;
    color: white;
-   background-color: green;
 }
 
 .nav .logo {
-   background-color: red;
+   display: flex;
+   align-items: center;
+   margin-right: auto;
+   padding-left: 32px;
+   background-color: gray;
 }
-
 /*hero*/
 .hero {
    padding-top: 124px;
+   background-color: #e8e739;
 }
 
+.hero .monk {
+   display: flex;
+   justify-content: center;
+}
+
+.hero .hero-text {
+   position: absolute;
+   padding-left: 102px;
+   padding-top: 65px;
+}
+
+/*portfolio*/
 h1 {
    padding-top: 124px;
+   font-family: Oswald, sans-serif;
+   font-weight: 100;
+   font-size: 74px;
+   text-align: center;
+}
+
+.works {
+   width: 100%;
+   margin-left: 32px;
+   margin-right: 32px;
+}
+
+.works img {
+   display: inline-flex;
+   padding-left: 10px;
+   padding-bottom: 35px;
 }
 
 /*Mobile*/
