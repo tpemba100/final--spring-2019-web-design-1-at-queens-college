@@ -9,43 +9,30 @@ p {
    font-size: 25px;
 }
 /*NAVIGATION BAR*/
-.nav-bar {
-   position: fixed;
-   display: flex;
-   justify-content: flex-start;
-   background-color: gray;
+.nav {
    width: 100%;
-   height: 124px;
-}
-
-.logo {
+   display: flex;
+   justify-content: flex-end;
+   position: fixed;
    background-color: blue;
-   width: 150px;
-}
-
-.logo a {
-   font-size: 50px;
+   height: 124px;
 }
 
 a {
    text-decoration: none;
 }
 
-.nav {
-   width: 100%;
-   padding-right: 52px;
-   background-color: yellow;
-   display: flex;
-   align-items: center;
-   justify-content: flex-end;
-}
-
 .nav a {
-   padding-left: 90px;
+   padding-top: 50px;
+   padding-right: 52px;
    font-family: Oswald, sans-serif;
    font-size: 20px;
    color: white;
    background-color: green;
+}
+
+.nav .logo {
+   background-color: red;
 }
 
 /*hero*/
@@ -59,25 +46,25 @@ h1 {
 
 /*Mobile*/
 @media (max-width: 400px) {
-   p {
-      color: red;
+   body {
+      background-color: red;
    }
 }
 /*Mobile and Tablet*/
 @media (min-width: 401px) and (max-width: 768px) {
-   p {
-      color: green;
+   body {
+      background-color: green;
    }
 }
 /*Tablet and Desktop*/
 @media (min-width: 769px) and (max-width: 1024px) {
-   p {
-      color: black;
+   body {
+      background-color: gray;
    }
 }
 /*Desktop*/
 @media (min-width: 1025px) {
-   p {
-      color: orange;
+   body {
+      background-color: orange;
    }
 }
